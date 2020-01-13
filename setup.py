@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'pydrasynth',         
   packages = ['pydrasynth'],   
-  version = '1.0.1',
+  version = '1.0.2',
   license='MIT',        
   description = 'A visual synthesizer written in Python',   
   author = 'Daan Klijn',                   
   author_email = 'daanklijn0@gmail.com',      
   url = 'https://github.com/daanklijn/pydra',   
-  download_url = 'https://github.com/daanklijn/pydra/archive/1.0.tar.gz',    
+  download_url = 'https://github.com/daanklijn/pydra/archive/1.0.2.tar.gz',    
   keywords = ['python', 'synthesizer', 'visual'],   
   install_requires=[            
           'numpy',
