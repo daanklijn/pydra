@@ -1,8 +1,8 @@
 from distutils.core import setup
 setup(
-  name = 'pydra',         
-  packages = ['pydra'],   
-  version = '1.0',
+  name = 'pydrasynth',         
+  packages = ['pydrasynth'],   
+  version = '1.0.1',
   license='MIT',        
   description = 'A visual synthesizer written in Python',   
   author = 'Daan Klijn',                   
