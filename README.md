@@ -40,23 +40,23 @@ And added to other oscillators
 
 
 ```
-osc().rotate(degrees=45).add(osc()).out()
+osc().rotate().add(osc()).out()
 ```
 
 Also subtraction and multiplication is possible
 
 ```
-osc().rotate(degrees=45).diff(osc()).out()
+osc().rotate().diff(osc()).out()
 ```
 
 ```
-osc().rotate(degrees=45).mult(osc()).out()
+osc().rotate().mult(osc()).out()
 ```
 
 Furthermore, the position of certain pixels can be shifted based on the color of another oscillator using modulation
 
 ```
-osc().modulate(degrees=45).modulate(osc()).out()
+osc().modulate().modulate(osc()).out()
 ```
 
 <!--- Chaining a couple of oscillators and functions together can result in amazing stuff --->
