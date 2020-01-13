@@ -8,7 +8,7 @@ setup(
   author = 'Daan Klijn',                   
   author_email = 'daanklijn0@gmail.com',      
   url = 'https://github.com/daanklijn/pydra',   
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    
+  download_url = 'https://github.com/daanklijn/pydra/archive/1.0.tar.gz',    
   keywords = ['python', 'synthesizer', 'visual'],   
   install_requires=[            
           'numpy',
@@ -24,5 +24,7 @@ setup(
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
   ],
 )
