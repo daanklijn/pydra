@@ -1,7 +1,5 @@
 # Pydra, a visual synthesizer written in Python
 
-`pip install pydrasynth`
-
 Pydra (inspired by [Hydra](https://github.com/ojack/hydra)) is a visual synthesizer that is able to generate beautiful visual patterns. You have a wide range of functions available that interact with each other and allows for endless posibilities. Below, a few examples are given to get you started. 
 
 ## Getting started
