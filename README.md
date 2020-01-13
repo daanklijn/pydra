@@ -2,7 +2,7 @@
 
 `pip install pydrasynth`
 
-Pydra (inspired by [Hydra](https://github.com/ojack/hydra)) is a visual synthesizer that is able to generate beautiful visual patterns. You have a wide range of functions available that interact with eachother and allows for endless posibilities. Below, a few examples are given to get you started. 
+Pydra (inspired by [Hydra](https://github.com/ojack/hydra)) is a visual synthesizer that is able to generate beautiful visual patterns. You have a wide range of functions available that interact with each other and allows for endless posibilities. Below, a few examples are given to get you started. 
 
 ## Getting started
 
@@ -55,12 +55,12 @@ osc().rotate(degrees=45).diff(osc()).out()
 osc().rotate(degrees=45).mult(osc()).out()
 ```
 
-Furthermore, the position of certain pixels can be shifted based on the color of another oscillator using modulation:
+Furthermore, the position of certain pixels can be shifted based on the color of another oscillator using modulation
 
 ```
 osc().modulate(degrees=45).modulate(osc()).out()
 ```
 
-Chaining a couple of oscillators and functions together can result in amazing stuff:
+<!--- Chaining a couple of oscillators and functions together can result in amazing stuff --->
 
 All functions can be found in [Pydra.py](https://github.com/daanklijn/pydra/blob/master/pydrasynth/Pydra.py)
