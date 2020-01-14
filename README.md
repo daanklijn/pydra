@@ -23,6 +23,8 @@ A simple oscillator can be created and displayed like this
 osc().out()
 ```
 
+![](https://raw.githubusercontent.com/daanklijn/pydra/master/osc1.gif)
+
 Also the period, speed and offset of the oscillator can be changed
 
 ```
@@ -35,6 +37,9 @@ Oscillators can be rotated
 ```
 osc().rotate(degrees=45).out()
 ```
+
+![](https://raw.githubusercontent.com/daanklijn/pydra/master/osc2.gif)
+
 
 And added to other oscillators
 
