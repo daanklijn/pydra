@@ -23,13 +23,15 @@ A simple oscillator can be created and displayed like this
 osc().out()
 ```
 
-![](https://raw.githubusercontent.com/daanklijn/pydra/master/osc1.gif)
+![](https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/osc1.gif)
 
 Also the period, speed and offset of the oscillator can be changed
 
 ```
 osc(speed=0.2, period=50, offset=0).out()
 ```
+
+![](https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/osc3.gif)
 
 Oscillators can be rotated
 
@@ -38,7 +40,7 @@ Oscillators can be rotated
 osc().rotate(degrees=45).out()
 ```
 
-![](https://raw.githubusercontent.com/daanklijn/pydra/master/osc2.gif)
+![](https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/osc2.gif)
 
 
 And added to other oscillators
@@ -48,21 +50,30 @@ And added to other oscillators
 osc().rotate().add(osc()).out()
 ```
 
+![](https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/osc4.gif)
+
 Also subtraction and multiplication is possible
 
 ```
 osc().rotate().diff(osc()).out()
 ```
 
+![](https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/osc5.gif)
+
+
 ```
 osc().rotate().mult(osc()).out()
 ```
+
+![](https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/osc6.gif)
 
 Furthermore, the position of certain pixels can be shifted based on the color of another oscillator using modulation
 
 ```
 osc().modulate().modulate(osc()).out()
 ```
+
+![](https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/osc7.gif)
 
 <!--- Chaining a couple of oscillators and functions together can result in amazing stuff --->
 
