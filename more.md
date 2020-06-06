@@ -10,7 +10,7 @@ osc().modulate().modulate(osc()).out()
 ```
 
 ![](https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/pydra1.gif)
+![](https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/pydra4.gif)
 ![](https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/pydra3.gif)
 ![](https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/pydra2.gif)
-![](https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/pydra4.gif)
 
