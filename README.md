@@ -70,7 +70,7 @@ osc().rotate().mult(osc()).out()
 Furthermore, the position of certain pixels can be shifted based on the color of another oscillator using modulation
 
 ```
-osc().rotate().modulate(osc()).out()
+osc().modulate(osc().rotate()).out()
 ```
 
 ![](https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/osc7.gif)
