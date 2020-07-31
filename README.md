@@ -1,3 +1,11 @@
+<div>
+<img width="200" src="https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/pydra1.gif">
+<img width="200" src="https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/pydra4.gif">
+<img width="200"  src="https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/pydra2.gif">
+<img width="200"  src="https://raw.githubusercontent.com/daanklijn/pydra/master/gifs/pydra3.gif">
+</div>
+
+
 # Pydra, a visual synthesizer written in Python
 
 Pydra (inspired by [Hydra](https://github.com/ojack/hydra)) is a visual synthesizer that is able to generate beautiful visual patterns. You have a wide range of functions available that interact with each other and will allow for endless posibilities. Below, a few examples are given to get you started. 
